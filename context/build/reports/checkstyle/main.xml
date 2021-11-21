@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="E:\project\spring-framework\context\src\main\java\com\dair\spring\context\ContextApplication.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\Q/*\E$&apos;." source="io.spring.javaformat.checkstyle.check.SpringHeaderCheck"/>
+<error line="5" column="1" severity="error" message="&apos;org.springframework.context.annotation.AnnotationConfigApplicationContext&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" severity="error" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="11" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="11" column="1" severity="error" message="标签 @author 必须匹配： &apos;.+\s.+&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="E:\project\spring-framework\context\src\main\java\com\dair\spring\context\config\ContextConfig.java">
+<error line="1" severity="error" message="header.missing" source="io.spring.javaformat.checkstyle.check.SpringHeaderCheck"/>
+<error line="6" severity="error" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="10" column="1" severity="error" message="标签 @author 必须匹配： &apos;.+\s.+&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="E:\project\spring-framework\context\src\main\java\com\dair\spring\context\service\IUserService.java">
+<error line="1" severity="error" message="header.missing" source="io.spring.javaformat.checkstyle.check.SpringHeaderCheck"/>
+<error line="3" severity="error" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="7" column="1" severity="error" message="标签 @author 必须匹配： &apos;.+\s.+&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" severity="error" message="当前行匹配非法表达式： &apos;Trailing whitespace&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+</file>
+<file name="E:\project\spring-framework\context\src\main\java\com\dair\spring\context\service\impl\UserServiceImpl.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\Q/*\E$&apos;." source="io.spring.javaformat.checkstyle.check.SpringHeaderCheck"/>
+<error line="4" column="1" severity="error" message="&apos;org.springframework.context.annotation.Scope&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" severity="error" message="Javadoc 描述块不应为空。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="11" column="1" severity="error" message="标签 @author 必须匹配： &apos;.+\s.+&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" severity="error" message="当前行匹配非法表达式： &apos;Trailing whitespace&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="18" severity="error" message="当前行匹配非法表达式： &apos;Trailing whitespace&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="20" severity="error" message="当前行匹配非法表达式： &apos;Trailing whitespace&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+</file>
+</checkstyle>
