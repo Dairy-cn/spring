@@ -2,6 +2,8 @@ package com.dair.spring.context;
 
 import com.dair.spring.context.config.ContextConfig;
 import com.dair.spring.context.service.IUserService;
+import com.dair.spring.context.service.impl.AServiceImpl;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -10,10 +12,10 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class ContextApplication {
 	public static void main(String[] args) {
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
+		ApplicationContext context = new AnnotationConfigApplicationContext(
 				ContextConfig.class
 		);
-		IUserService bean = context.getBean(IUserService.class);
-		System.out.println(bean);
+		AServiceImpl bean = context.getBean(AServiceImpl.class);
+		bean.setParam();
 	}
 }

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
  * @since
  */
 @Service
-@Scope("singleton")
+@Scope("prototype")
 public class UserServiceImpl implements IUserService {
 	
 	public UserServiceImpl() {
